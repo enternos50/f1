@@ -1,0 +1,35 @@
+body {
+    background-image: url(ideefond4.avif);
+    font-family: Arial, sans-serif;       
+    margin: 0px;
+    padding: 100px;
+  }
+
+  form {
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    /*border: 10px solid rgb(202, 54, 54);  /* Bordure bleue ciel */
+    box-shadow:
+      0 0 30px rgb(202, 54, 54),
+      0 0 40px rgb(202, 54, 54),
+      0 0 50px rgb(202, 54, 54),
+      0 0 60px rgb(202, 54, 54);
+  }
+
+  h1 {
+    color: rgb(214, 157, 157); /* Couleur principale */
+    text-shadow:
+     0 0 10px rgb(243, 25, 25),
+     0 0 20px rgb(243, 25, 25),
+     0 0 40px rgb(243, 25, 25),
+     0 0 80px rgb(243, 25, 25),
+     0 0 160px rgb(243, 25, 25);
+    font-weight: bold;
+    text-align: center;
+    font-size: 4em; /* Taille agrandie */
+  }
+
+  
