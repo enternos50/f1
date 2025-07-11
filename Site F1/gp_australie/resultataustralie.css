@@ -1,0 +1,84 @@
+body{
+    background-image: url(fond_gp_austra.jpg);
+    background-repeat: no-repeat;
+    background-size: 105% 105%;                        /* Allonge l'image de fond horizontalement et verticalement */
+    /*background-size: cover;                          /* utilise 'cover' pour couvrir tout l'écran */
+    /*background-position: center -50px;               /* Centrage de l'image et décale l'image de fond vers le bas */
+    /* background-attachment: fixed;*/                 /* fixe l'image de fond lors du defilement */
+    font-family: Arial, sans-serif;       
+    margin: -20px;
+    padding: 150px;                                    /* Pas de padding pour éviter les marges internes */
+}
+
+h1{
+    text-align: center;
+    color: rgb(196, 9, 9);
+    text-decoration: underline;
+    font-size: 8em;
+    margin-top: -55px;                                 /* Diminue la distance entre le haut de la page et h1 */
+    text-shadow: 0 0 8px #fff, 0 0 16px #f00, 0 0 24px #f00;
+}
+
+table {
+  width: 75%;
+  height: 300px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #d8d1d1;
+  font-size: 1em;
+  margin: 40px auto;
+  padding: 8px 32px;
+}
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #333; 
+  background-color: rgba(216, 209, 209, 0.8);     /* Fond légèrement transparent */
+  padding: 8px 12px;
+  font-size: 1em;
+  text-align: center;
+  color: #000000;                                                /* Texte en noir */
+}
+
+th {
+  background-color: #d8d1d1;
+}
+
+tr:nth-child(even) td {
+  background-color: #d8d1d1;
+}
+
+.images-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;                                         /* Aligne le bas des images */
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.images-top img {
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+  background: transparent;                                     /* Bordure (fond) transparent */
+  padding: 0px;
+  border: 2px solid transparent;          /* Bordure transparente */
+  opacity: 0.9;                           /* Images un peu transparentes */
+}
+
+.images-top img:nth-child(1) {     /* augmente la taille de l'image bryan */
+  height: 460px;
+}
+.images-top img:nth-child(2) {     /* augmente la taille de l'image gabriel */
+  height: 550px;
+}
+.images-top img:nth-child(3) {     /* augmente la taille de l'image noah */
+  height: 420px;
+}
+
+tr:nth-child(2) td {
+  background-color: rgb(175, 17, 175);      /* surligne la ligne numero 3 */
+}
